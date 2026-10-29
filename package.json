@@ -1,0 +1,29 @@
+{
+  "name": "focuspulse",
+  "version": "1.0.0",
+  "description": "FocusPulse \u2014 Study, Tasks, Habits & Hydration Application by Foc-It",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "tauri": "tauri",
+    "tauri:icon": "tauri icon assets/logo.png",
+    "tauri:exe": "tauri build --bundles nsis",
+    "tauri:apk": "tauri android build --apk",
+    "cap:add": "cap add android",
+    "cap:sync": "cap sync android",
+    "cap:copy": "cap copy android",
+    "cap:open": "cap open android"
+  },
+  "author": "azmee7 (Azmi) \u2014 Foc-It (github.com/foc-it)",
+  "license": "Custom",
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2",
+    "@tauri-apps/cli": "^2.1.0",
+    "vite": "^5.4.10"
+  }
+}

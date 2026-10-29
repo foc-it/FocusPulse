@@ -1,0 +1,31 @@
+# Node & Frontend Build Outputs
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Private API Keys & Firebase Config (NEVER commit to GitHub)
+js/config.local.js
+.env
+.env.*
+!.env.example
+
+# Tauri & Rust Build Artifacts (Multi-GB compile cache)
+src-tauri/target/
+src-tauri/gen/android/app/build/
+src-tauri/gen/android/.gradle/
+src-tauri/gen/android/local.properties
+
+# Android Keystores & Signing Secrets (NEVER commit to GitHub)
+*.jks
+*.keystore
+key.properties
+FocusPulse_*_Signed.apk
+FocusPulse_*_x64-setup.exe
+
+# Editor & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
