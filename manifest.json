@@ -1,0 +1,29 @@
+{
+  "name": "FocusPulse \u2014 Study, Tasks, Habits & Hydration",
+  "short_name": "FocusPulse",
+  "description": "The deep-work suite for students, developers, and creators by Foc-It.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#050508",
+  "theme_color": "#5f5bf6",
+  "icons": [
+    {
+      "src": "assets/favicon.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
